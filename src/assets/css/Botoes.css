@@ -1,0 +1,32 @@
+.MyButton{
+    display: flex;
+    justify-content: space-around;
+    margin:10px;
+    border:2px solid black;
+    border-radius: 5px;
+    width: 400px;
+    align-items: center;
+    background-color: rgba(17, 153, 153, 0.392);
+    box-shadow: 5px 5px 10px rgba(49, 38, 38, 0.632);
+
+}
+
+button{
+    height:40px;
+    width:40px;
+    background-color: rgba(255, 255, 255, 0.703);
+}
+
+button font{
+    font-size: 30px;
+}
+
+
+body {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    min-height: 100vh;       /* Faz o body ocupar toda a altura da página */
+    margin: 0;               /* Remove as margens padrão do body */
+    background-color: rgba(243, 243, 243, 0.782);
+}
